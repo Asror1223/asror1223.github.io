@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(77deg, rgba(34,193,195,1) 0%, rgba(253,45,77,0.773546918767507) 87%);;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin: 1.66%;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    min-width: 420px;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    margin: 1.66%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-bottom: 2px rgb(228, 228, 228) solid;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
