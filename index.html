@@ -1,40 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Photo Blog</title>
-    <link rel="stylesheet" type="text/css" href="photoblog.css">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="personal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1e9b83d38.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1>Asror T's Blog</h1>
- <!--I will be adding links for the roses and create a rose gallery as a website-->
+    <!-- Start of nav section -->
 
- <!--All photos licensed under creative commons and free to use-->
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li><a class="nav-link" href="#welcome-section">Hello</a></li>
+            <li><a class="nav-link" href="#projects">Work</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
- <!--Downloaded from Wikipedia-->
- 
-    <h2>Bunch of Random flower pics from Google</h2> 
-    
-    <div class="block">    
-<img src="https://live.staticflickr.com/65535/50347111703_a94bc3648c_6k.jpg" alt="Milky Way at Lake Ninan, Western Australia" class="">
+    <!-- End of nav section -->
 
- <img src="https://live.staticflickr.com/7311/27429098552_23a12d86d5_b.jpg" alt="Red roses" class="">
+    <!-- Start of main section, I'm going to have two sections here -->
+    <main>
+        <!-- Start of welcome section -->
+        <section id="welcome-section">
+            <h1>Hello, I am Asror</h1>
+            <p>a front end developer</p>
+        </section>
+        <!-- End of welcome section -->
 
- <img src="https://live.staticflickr.com/8374/8591674907_6fb71ee4ac_b.jpg" alt="tulip" class="">
+        <!-- Start of projects section -->
+        <section id="projects">
+            <h2 class="section-title">Some examples of my "super complex" work </h2>
+            <div class="project-grid">
+                <a href="https://codepen.io/asror1/full/NWNZWEj" target="_blank" class="project project-tile">
+                    <img class="project-image"
+                        src="https://raw.githubusercontent.com/Asror1223/asror-demo/master/screenshot4.JPG"
+                        alt="project" />
+                    <p class="project-title">
 
-<img src="https://live.staticflickr.com/65535/50339047438_bf5431ceb4_h.jpg" alt="Sunset at Myrtle Beach">
+                        Tribute Page
 
-<img src="https://live.staticflickr.com/730/22418707061_f9f837eff9_h.jpg" alt="20130730_Myrtle Beach_045.jpg" class="">
+                    </p>
+                </a>
+                <a href="https://codepen.io/asror1/full/WNxeZWm" target="_blank" class="project project-tile">
+                    <img class="project-image"
+                        src="https://raw.githubusercontent.com/Asror1223/asror-demo/master/screenshot1.JPG"
+                        alt="project" />
+                    <p class="project-title">
 
-<img src="https://live.staticflickr.com/5603/15317528089_19892e3a83_h.jpg" alt="Nature" class="">
+                        Landing page for SKY CHESS Tashkent
 
-<img src="https://live.staticflickr.com/5609/15556384292_7ea5846c29_h.jpg" alt="nature" class="">
+                    </p>
+                </a>
+                <a href="https://codepen.io/asror1/full/abZOEzp" target="_blank" class="project project-tile">
+                    <img class="project-image"
+                        src="https://raw.githubusercontent.com/Asror1223/asror-demo/master/screenshot2.JPG"
+                        alt="project" />
+                    <p class="project-title">
 
-<img src="https://live.staticflickr.com/2781/4423005169_ae1951a079_b.jpg" alt="Flowers" class="">
+                        Tech documentation page (example)
 
-<img src="https://live.staticflickr.com/65535/49999896088_c783a2507e_b.jpg" alt="Red Rose" class="">
-</div>
+                    </p>
+                </a>
+                <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile">
+                    <img class="project-image"
+                        src="https://raw.githubusercontent.com/Asror1223/asror-demo/master/screenshot3.JPG"
+                        alt="project" />
+                    <p class="project-title">
+
+                        Example of a survey page
+
+                    </p>
+                </a>
+            </div>
+
+            <a href="https://codepen.io/asror1" class="btn btn-show-all" target="_blank">All work on CodePen &raquo;</a>
+        </section>
+        <!-- End of projects section -->
+
+        <!-- Start of contact -->
+        <section id="contact">
+            <div class="contact-header">
+                <h2 class="contact-h2">Let's connect...</h2>
+                <p class="contact-p">and find out who wins rock-paper-scissors.</p>
+            </div>
+            <div class="contact-links">
+                <a target="_blank" class="btn-link" href="https://www.instagram.com/asror.tohir/"><i
+                        class="fab fa-instagram"></i> Instagram</a>
+                <a target="_blank" class="btn-link" href="https://www.freecodecamp.org/asror_t"><i
+                        class="fab fa-free-code-camp"></i> FreeCodeCamp</a>
+                <a class="btn-link" href="mailto:asror.t.1223@gmail.com"><i class="fas fa-at"></i> Email</a>
+                <a class="btn-link" href="tel:407-388-4302"><i class="fas fa-phone-square-alt"></i> Phone</a>
+            </div>
+
+        </section>
+        <!-- End of contact -->
+    </main>
+
+    <footer>
+        <i class="fab fa-free-code-camp"></i>
+        <p>**All rights reserved. Shoutout to FCC and Mimic for the portfolio project**</p>
+        <i class="fab fa-free-code-camp"></i>
+    </footer>
+    <!-- end of footer -->
 </body>
+
 </html>
